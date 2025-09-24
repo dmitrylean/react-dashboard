@@ -1,0 +1,41 @@
+import { Card, CardContent } from "../../components/ui/Card";
+import { Input } from "../../components/ui/Input";
+import PayoutsTable from "./PayoutsTable";
+import PayoutsCards from "./PayoutsCards";
+
+const payouts = [
+  {
+    date: "05.02.2024 11:31",
+    sum: "59 440 ₽",
+    request: "выплачено ранее (обновление программы)",
+    to: "2202206254381556",
+    status: "выплачено",
+  },
+  {
+    date: "05.02.2024 11:31",
+    sum: "59 440 ₽",
+    request: "перевод на банковскую карту",
+    to: "2202206254381556",
+    status: "выплачено",
+  },
+];
+
+export default function PayoutsSection() {
+  return (
+    <Card>
+      <CardContent className="p-4 space-y-4">
+        <Input placeholder="Поиск" className="w-full md:w-64" />
+
+        {/* Desktop table */}
+        <div className="hidden md:block">
+          <PayoutsTable payouts={payouts} />
+        </div>
+
+        {/* Mobile cards */}
+        <div className="block md:hidden">
+          <PayoutsCards payouts={payouts} />
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
