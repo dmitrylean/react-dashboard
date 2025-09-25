@@ -26,12 +26,10 @@ export default function PayoutsSection() {
       <CardContent className="p-4 space-y-4">
         <Input placeholder="Поиск" className="w-full md:w-64" />
 
-        {/* Desktop table */}
         <div className="hidden md:block">
           <PayoutsTable payouts={payouts} />
         </div>
 
-        {/* Mobile cards */}
         <div className="block md:hidden">
           <PayoutsCards payouts={payouts} />
         </div>

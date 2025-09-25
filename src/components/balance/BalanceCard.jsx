@@ -8,27 +8,27 @@ export default function BalanceCard() {
 
   return (
     <Card>
-      <CardContent className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-4">
+      <CardContent className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-4 max-h-95">
         <div>
           <p className="text-gray-500">Баланс на счёте:</p>
-          <p className="text-xl font-bold">0 руб.</p>
+          <p className="font-semibold text-[#006999]">0 руб.</p>
         </div>
-        <div className="grid grid-cols-2 md:flex md:gap-6 text-sm text-center">
+        <div className="grid grid-cols-2 md:flex md:gap-8 text-sm text-center w-88, h-55 gap-15">
           <div>
-            Группа 1<br />
-            40%
+            <p className="group">Группа 1</p>
+            <p>40%</p>
           </div>
           <div>
-            Группа 2<br />
-            20%
+            <p className="group">Группа 2</p>
+            <p>60%</p>
           </div>
           <div>
-            Группа 3<br />
-            10%
+            <p className="group">Группа 3</p>
+            <p>10%</p>
           </div>
           <div>
-            Группа 4<br />
-            5%
+            <p className="group">Группа 4</p>
+            <p>5%</p>
           </div>
         </div>
         <div className="flex items-start md:items-center gap-2 text-sm">
