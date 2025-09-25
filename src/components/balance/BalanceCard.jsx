@@ -13,22 +13,22 @@ export default function BalanceCard() {
           <p className="text-gray-500">Баланс на счёте:</p>
           <p className="font-semibold text-[#006999]">0 руб.</p>
         </div>
-        <div className="grid grid-cols-2 md:flex md:gap-8 text-sm text-center w-88, h-55 gap-15">
+        <div className="grid grid-cols-2 md:flex md:gap-8 text-sm text-center w-88, h-55 gap-15 divide-x-4 divide-gray-200">
           <div>
-            <p className="group">Группа 1</p>
-            <p>40%</p>
+            <p>Группа 1</p>
+            <p className="text-left mt-2">40%</p>
           </div>
           <div>
-            <p className="group">Группа 2</p>
-            <p>60%</p>
+            <p>Группа 2</p>
+            <p className="text-left mt-2">60%</p>
           </div>
           <div>
-            <p className="group">Группа 3</p>
-            <p>10%</p>
+            <p>Группа 3</p>
+            <p className="text-left mt-2">10%</p>
           </div>
           <div>
-            <p className="group">Группа 4</p>
-            <p>5%</p>
+            <p>Группа 4</p>
+            <p className="text-left mt-2">5%</p>
           </div>
         </div>
         <div className="flex items-start md:items-center gap-2 text-sm">

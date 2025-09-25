@@ -13,8 +13,8 @@ const links = [
 
 export default function TopNav() {
   return (
-    <nav className="w-full bg-white border-b border-gray-200">
-      <ul className="flex space-x-6 px-6 h-14 items-center text-sm font-medium">
+    <nav className="w-full">
+      <ul className="flex space-x-6 px-6 h-10 items-center justify-between text-[15px] font-medium bg-[#00466626]">
         {links.map((link) => (
           <li key={link.path}>
             <NavLink
@@ -22,8 +22,8 @@ export default function TopNav() {
               className={({ isActive }) =>
                 `pb-2 transition ${
                   isActive
-                    ? "text-blue-600 border-b-2 border-blue-600"
-                    : "text-gray-600 hover:text-blue-500"
+                    ? "text-[#475569] bg-[#FFFFFF] text-center px-28 py-5"
+                    : "text-gray-600"
                 }`
               }
             >

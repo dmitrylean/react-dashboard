@@ -2,7 +2,7 @@ export function Button({ children, onClick, className = "" }) {
   return (
     <button
       onClick={onClick}
-      className={`px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 ${className}`}
+      className={`px-14 py-3 bg-[#006999] text-white rounded text-[15px] hover:bg-blue-700 ${className}`}
     >
       {children}
     </button>
