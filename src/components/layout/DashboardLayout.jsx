@@ -11,13 +11,13 @@ export default function DashboardLayout({ children }) {
             to="/"
             className="block px-3 py-2 rounded hover:bg-gray-700 transition"
           >
-            Partner Account
+            Client Account
           </Link>
           <Link
             to="/payouts"
             className="block px-3 py-2 rounded hover:bg-gray-700 transition"
           >
-            Payouts
+            Orders
           </Link>
           <Link
             to="/settings"

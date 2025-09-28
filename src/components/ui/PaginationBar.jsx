@@ -20,7 +20,7 @@ export default function PaginationBar({
   return (
     <div className="flex items-center justify-between mt-4 border-t pt-3">
       <div className="flex items-center space-x-2">
-        <span className="text-sm text-gray-600">Записей в странице:</span>
+        <span className="text-sm text-gray-600">Entries Per Page::</span>
         <select
           value={pageSize}
           onChange={handlePageSizeChange}

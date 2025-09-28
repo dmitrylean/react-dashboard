@@ -3,12 +3,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const links = [
-  { path: "/", label: "Партнерский счет" },
-  { path: "/referrals", label: "Рефералы" },
-  { path: "/links", label: "Ссылка и регистрации" },
-  { path: "/payments", label: "Оплаты рефералов" },
-  { path: "/rules", label: "Правила" },
-  { path: "/acts", label: "Акты" },
+  { path: "/", label: "Client" },
+  { path: "/referrals", label: "Orders" },
+  { path: "/rules", label: "Rules" },
+  { path: "/acts", label: "Checks" },
 ];
 
 export default function TopNav() {

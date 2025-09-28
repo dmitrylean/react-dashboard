@@ -8,17 +8,17 @@ import PaginationBar from "../../components/ui/PaginationBar";
 const payouts = [
   {
     date: "05.02.2024 11:31",
-    sum: "59 440 ₽",
-    request: "выплачено ранее (обновление программы)",
-    to: "2202206254381556",
-    status: "выплачено",
+    sum: "60$",
+    request: "Album 1",
+    to: "Spanish",
+    status: "Done",
   },
   {
     date: "05.02.2024 11:31",
-    sum: "59 440 ₽",
-    request: "перевод на банковскую карту",
-    to: "2202206254381556",
-    status: "выплачено",
+    sum: "100$",
+    request: "Album 2",
+    to: "Puerto-Rico",
+    status: "In Process",
   },
 ];
 

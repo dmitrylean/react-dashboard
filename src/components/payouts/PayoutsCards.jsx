@@ -4,19 +4,19 @@ export default function PayoutsCards({ payouts }) {
       {payouts.map((p, i) => (
         <div key={i} className="border rounded p-3 space-y-1">
           <p>
-            <strong>Дата:</strong> {p.date}
+            <strong>Date:</strong> {p.date}
           </p>
           <p>
-            <strong>Сумма:</strong> {p.sum}
+            <strong>Sum:</strong> {p.sum}
           </p>
           <p>
-            <strong>Запрос:</strong> {p.request}
+            <strong>Order Details:</strong> {p.request}
           </p>
           <p>
-            <strong>Куда перевести:</strong> {p.to}
+            <strong>Country:</strong> {p.to}
           </p>
           <p>
-            <strong>Статус:</strong>{" "}
+            <strong>Status:</strong>{" "}
             <span className="px-2 py-1 rounded bg-green-200">{p.status}</span>
           </p>
         </div>

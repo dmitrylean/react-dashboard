@@ -3,11 +3,11 @@ export default function PayoutsTable({ payouts }) {
     <table className="w-full border text-sm">
       <thead>
         <tr className="bg-gray-100">
-          <th className="p-2 text-left">Дата</th>
-          <th className="p-2 text-left">Сумма</th>
-          <th className="p-2 text-left">Запрос</th>
-          <th className="p-2 text-left">Куда перевести</th>
-          <th className="p-2 text-left">Статус</th>
+          <th className="p-2 text-left">Data</th>
+          <th className="p-2 text-left">Sum</th>
+          <th className="p-2 text-left">Order Details</th>
+          <th className="p-2 text-left">Country</th>
+          <th className="p-2 text-left">Status</th>
         </tr>
       </thead>
       <tbody>
